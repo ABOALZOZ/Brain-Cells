@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="brain-icon.png">
+    <title>Brain Cells</title>
+</head>
+<body>
+    
+    
+
+    <div class="container">
+        
+
+        <div class="content"><p class="big-text">Brain Cells</p> <p class="words">Here in Brain Cells we produce high value Brain cells to the stupid people who dosent have them</p>  <a href="2.html"> <button class="order" role="alert">Order</button></a> <p class="maker">By: <a href="https://www.youtube.com/channel/UCGqVFDsmNCUzm6JDYk4OaYw" style="text-decoration: nonw; color: white;text-decoration-line:none ; ">l_BALLZ_l</a></p>      </div>
+
+        <div class="content-2"><img src="brain-lateral.png" class="brain"></img> </div>   
+    
+                
+    </div>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        body{
+            background:linear-gradient(rgb(228, 64, 214),rgb(202, 91, 100));
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 90%;
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0.164);
+            border-radius: 9px;
+            width: 90%;
+            overflow: hidden;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(255, 255, 255, 0.342);
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            width: 100%;
+        }
+        li{
+            color: white;
+            text-decoration:none;
+            align-items: center;
+            display: inline-block;
+            padding: 5px;
+            transition: 1s;
+            user-select: none;
+            font-weight: bold;
+            right: 30px;
+        }
+        li:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .content{
+            background-color: rgba(255, 0, 0, 0);
+            height: 96%;
+            width: 50%;
+            margin: 0px;
+            display: flex;
+            float: left;
+            position:relative;
+            flex-wrap: wrap;
+             flex-direction: row-reverse;
+            align-content: space-around;
+            justify-content: center;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        .content-2{
+            display: flex;
+            background-color:rgba(0, 0, 255, 0) ;
+            height: 96%;
+            width: 40%;
+            margin: 0px;
+            float:right;
+            justify-content: center;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .brain{
+            display: flex;
+            height: 50%;
+            animation-name: brain;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            box-shadow: 20px;
+        }
+        @keyframes brain {
+            0%{translate: 0px 0px ;}
+            50%{translate: 0 +10px;}
+            100%{translate: 0 0px;}
+        }
+        .words{
+            color:white;
+            font-size:25px;
+            display: flex;  
+        }
+        .big-text{
+            font-size: 100px;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            float: none;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+            margin-top: 20px;
+            text-shadow: #000000a8;
+            text-shadow: 4px 4px 8px #000000;
+        }
+        @media (min-width:0px) and (max-width:640px){
+            .big-text{
+            font-size: 60px;
+            }
+        }
+        
+        .order{
+            display:inline-flex ;
+            height: 40px;
+            width: 120px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            border: solid red;
+            border-radius:6px ;
+            margin: 0px;
+            margin-bottom: 20px;
+            float: right;
+            background-color: rgba(255, 0, 0, 0);
+            transition: 0.3s;
+            cursor: pointer;
+            text-shadow: none;
+            outline: none;
+            user-select: none;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+        }
+        .order:hover{
+            transform:translatey(-10px);
+            background-color: #ff6811a8;
+        }
+        .order:active{
+            background-color: red;
+        }
+        .head{
+            display: inline;
+        }
+        @media (min-width:200px) and (max-width:730px){
+           .brain{
+            height: 30%;
+           }
+        }
+        @media (min-width:200px) and (max-width:640px){
+            .brain{
+                height: 25% ;
+                top: 30px;
+                position: relative;
+            }
+        }
+        .try{
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+        .maker{
+            color: white;
+            font-weight:bold;
+            display: block;
+            size: 100%;
+            position: absolute;
+            top: 470px;
+            text-shadow: 4px 4px 5px black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        @media (min-width:1000px) and (max-width:2000px){
+            .maker{
+                top: 550px;
+            }
+        }
+    </style>
+</body>
+</html>
